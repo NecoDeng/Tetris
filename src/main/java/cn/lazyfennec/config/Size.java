@@ -10,7 +10,7 @@ import java.awt.*;
  * @time: 2023/9/6 17:32
  */
 @Data
-public class MainFrameSize extends Dimension {
+public class Size extends Dimension {
 
     /**
      * 宽度

@@ -3,3 +3,7 @@ imageIconPath: src//main//resources//icon.jpg
 size:
   width: 500
   height: 800
+mainPanel:
+  size:
+    width: 480
+    height: 700

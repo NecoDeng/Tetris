@@ -1,6 +1,9 @@
 package cn.lazyfennec.frame;
 
+import cn.lazyfennec.components.MainPanel;
+
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * @description:
@@ -9,6 +12,18 @@ import javax.swing.*;
  */
 public class MainFrame extends JFrame {
 
-    private static MainFrame mainFrame = new MainFrame();
+    /**
+     * 主要面板
+     */
+    private MainPanel mainPanel;
+
+    /**
+     * 初始化相关组件
+     */
+    public void initComponents() {
+        if (null == mainPanel) mainPanel = new MainPanel();
+        mainPanel.init();
+        add(mainPanel, BorderLayout.CENTER);
+    }
 
 }

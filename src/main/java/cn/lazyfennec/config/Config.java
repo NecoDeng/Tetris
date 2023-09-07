@@ -1,7 +1,7 @@
 package cn.lazyfennec.config;
 
+import cn.lazyfennec.config.panel.MainPanelConfig;
 import lombok.Data;
-import org.yaml.snakeyaml.Yaml;
 
 import javax.swing.*;
 import java.awt.*;
@@ -22,7 +22,7 @@ public class Config {
     /**
      * 主窗口尺寸
      */
-    private MainFrameSize size;
+    private Size size;
 
     /**
      * 图片路径
@@ -37,5 +37,10 @@ public class Config {
     public Image getImageIcon() {
         return new ImageIcon(imageIconPath).getImage();
     }
+
+    /**
+     * 主要面板参数
+     */
+    private MainPanelConfig mainPanel;
 
 }
