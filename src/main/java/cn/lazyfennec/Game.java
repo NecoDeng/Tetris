@@ -39,10 +39,11 @@ public class Game {
         mainFrame.setIconImage(ConfigUtils.getConfig().getImageIcon()); // 设置图标
         mainFrame.setTitle(ConfigUtils.getConfig().getTitle());
         mainFrame.setSize(ConfigUtils.getConfig().getSize()); // 设置窗口大小
-        mainFrame.setLayout(new BorderLayout()); // 设置组件布局
+//        mainFrame.setLayout(new BorderLayout()); // 设置组件布局
         mainFrame.setLocationRelativeTo(null); // 设置居中
         mainFrame.setResizable(false); // 设置不可调整大小
         mainFrame.initComponents(); // 初始化内部组件
+        mainFrame.setLayout(null);
     }
 
     /**

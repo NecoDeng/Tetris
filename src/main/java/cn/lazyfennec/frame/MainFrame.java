@@ -23,7 +23,7 @@ public class MainFrame extends JFrame {
     public void initComponents() {
         if (null == mainPanel) mainPanel = new MainPanel();
         mainPanel.init();
-        add(mainPanel, BorderLayout.CENTER);
+        add(mainPanel);
     }
 
 }

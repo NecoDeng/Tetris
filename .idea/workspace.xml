@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b5e3e09-3264-4bde-8562-3b95318b43a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/components/MainPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/config/panel/MainPanelConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/config/Bounds.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/components/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/components/MainPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/config/MainFrameSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/config/Size.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/config/Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/config/Size.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/config/panel/MainPanelConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/config/panel/MainPanelConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/frame/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lazyfennec/frame/MainFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
     </list>
@@ -38,15 +39,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspaces/personal/tetris/src/main/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/workspaces/personal/Tetris"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspaces\personal\tetris\src\main\resources" />
@@ -55,13 +56,26 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.lazyfennec.Main" />
-      <module name="tetris" />
+      <module name="Tetris" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.lazyfennec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Tetris" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Tetris" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,7 +96,8 @@
       <updated>1693468464550</updated>
       <workItem from="1693468466073" duration="4383000" />
       <workItem from="1693992137729" duration="4051000" />
-      <workItem from="1694050929599" duration="5470000" />
+      <workItem from="1694050929599" duration="7719000" />
+      <workItem from="1694078237550" duration="1900000" />
     </task>
     <servers />
   </component>

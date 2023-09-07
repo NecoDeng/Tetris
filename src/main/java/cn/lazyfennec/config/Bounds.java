@@ -5,11 +5,12 @@ import lombok.Data;
 import java.awt.*;
 
 /**
- * @description:
+ * @description: 边界
  * @author: dengxiamin
- * @time: 2023/9/6 17:32
+ * @time: 2023/9/7 17:24
  */
 @Data
-public class Size extends Dimension {
+public class Bounds extends Rectangle {
+
 
 }

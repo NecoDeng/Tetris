@@ -16,8 +16,9 @@ public class MainPanel extends JPanel {
      * 初始化
      */
     public void init() {
-        setBackground(Color.BLUE);
-        setSize(ConfigUtils.getConfig().getMainPanel().getSize());
+        setBounds(ConfigUtils.getConfig().getMainPanel().getBounds());
+        setBackground(Color.GRAY);
+//        setSize(ConfigUtils.getConfig().getMainPanel().getSize());
     }
 
 }
