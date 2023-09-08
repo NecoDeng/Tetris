@@ -1,6 +1,7 @@
 package cn.lazyfennec.config;
 
 import cn.lazyfennec.config.panel.MainPanelConfig;
+import cn.lazyfennec.config.panel.PreviewPanelConfig;
 import lombok.Data;
 
 import javax.swing.*;
@@ -42,5 +43,10 @@ public class Config {
      * 主要面板参数
      */
     private MainPanelConfig mainPanel;
+
+    /**
+     *
+     */
+    private PreviewPanelConfig previewPanel;
 
 }

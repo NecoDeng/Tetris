@@ -1,29 +1,23 @@
 package cn.lazyfennec.frame;
 
 import cn.lazyfennec.components.MainPanel;
+import cn.lazyfennec.components.PreviewPanel;
 
 import javax.swing.*;
-import java.awt.*;
 
 /**
- * @description:
+ * @description: 主窗口
  * @author: dengxiamin
  * @time: 2023/8/31 16:08
  */
 public class MainFrame extends JFrame {
 
     /**
-     * 主要面板
-     */
-    private MainPanel mainPanel;
-
-    /**
      * 初始化相关组件
      */
     public void initComponents() {
-        if (null == mainPanel) mainPanel = new MainPanel();
-        mainPanel.init();
-        add(mainPanel);
+        add(MainPanel.getSingleton());
+        add(PreviewPanel.getSingleton());
     }
 
 }

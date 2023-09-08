@@ -4,7 +4,7 @@ import cn.lazyfennec.config.Config;
 import org.yaml.snakeyaml.Yaml;
 
 /**
- * @description:
+ * @description: 配置工具类
  * @author: dengxiamin
  * @time: 2023/8/31 16:32
  */
